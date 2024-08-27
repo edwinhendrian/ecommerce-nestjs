@@ -21,6 +21,7 @@ model User {
   name            String    @db.VarChar(100)
   password        String    @db.Text()
   avatar          String?   @db.Text()
+  token           String?   @db.Text()
   created_at      DateTime  @default(now())
   updated_at      DateTime  @default(now()) @updatedAt
   last_login      DateTime? @db.Timestamp()

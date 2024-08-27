@@ -9,8 +9,8 @@ Request Body :
 ```json
 {
   "email": "edwinhendrian23@gmail.com",
-  "password": "rahasia",
-  "name": "Edwin Hendrian"
+  "name": "Edwin Hendrian",
+  "password": "rahasia"
 }
 ```
 
@@ -105,8 +105,8 @@ Request Body :
 
 ```json
 {
-  "password": "rahasia", // optional
-  "name": "Edwin Hendrian" // optional
+  "name": "Edwin Hendrian", // optional
+  "password": "rahasia" // optional
 }
 ```
 

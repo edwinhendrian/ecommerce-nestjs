@@ -10,6 +10,7 @@ CREATE TABLE "users" (
     "name" VARCHAR(100) NOT NULL,
     "password" TEXT NOT NULL,
     "avatar" TEXT,
+    "token" TEXT,
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "last_login" TIMESTAMP,
